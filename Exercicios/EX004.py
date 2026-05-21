@@ -1,4 +1,4 @@
-
+#Ex que detalha as propriedades do meu input
 x = input('Digite algo: ')
 print(f'O tipo desse valor é {type(x)}')
 print(f'Só tem espaços? {x.isspace()}')

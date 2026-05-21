@@ -1,5 +1,11 @@
 print('Informe sua data de nascimento: ')
-dia=input('Que dia você nasceu? ')
-mes=input('Em qual mês? ')
-ano=input('Em que ano? ')
+dia=int(input('Que dia você nasceu? '))
+mes=int(input('Em qual mês? '))
+ano=int(input('Em que ano? '))
+#linha abaixo adicinada apos aula de listas
+meses=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+
 print('A data de nascimento informada é',dia,mes,ano)
+
+
+print(f'Você nas em {dia} de {meses[mes - 1]} de {ano}')
